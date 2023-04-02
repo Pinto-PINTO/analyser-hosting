@@ -1,0 +1,27 @@
+Extract the below data from relevent websites:
+
+1) GDP Growth Rate - https://tradingeconomics.com/european-union/gdp  [DONE]
+2) Unemployement Rate - https://tradingeconomics.com/european-union/unemployment-rate  [DONE]
+3) Core Inflation Rate - https://tradingeconomics.com/european-union/core-inflation-rate  [DONE]
+4) Extract Entire Forex Sentiment (Might have free api) - https://www.myfxbook.com/community/outlook  [DONE]
+5) Get COT Data :
+   i) A1 EdgeFinder - COT Data - https://a1trading.com/market-analysis/cot/
+
+   ii) EURO FX - CHICAGO MERCANTILE EXCHANGE - https://www.cftc.gov/dea/futures/deacmesf.htm
+       Long Percentage: (long/long+short ) * 100
+       Short Percentage: (short/long+short ) * 100
+
+  iii) COT Data - https://www.tradingster.com/cot/legacy-futures/090741   [DONE]
+       Non-Commercial
+       Long Percentage: (long/long+short ) * 100
+       Short Percentage: (short/long+short ) * 100
+
+6) Interest Rate for Each Currency
+   Example for USD Interest Rate - https://tradingeconomics.com/united-states/interest-rate
+   Get the "United States Fed Funds Rate" : Actual & Previous
+
+7) Currency Pair Popularity (Daily & Weekly)
+   Example for AUDUSD - https://www.tradingview.com/symbols/AUDUSD/
+   Get Daily and Weekly Percentages
+
+8) A1 EdgeFinder Website - https://a1trading.com/edgefinder/
